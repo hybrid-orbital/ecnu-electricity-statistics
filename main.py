@@ -18,7 +18,7 @@ class ItemType(TypedDict):
 
 # DEBUG：开启调试模式，将 pushplus/Telegram 消息输出至 stdout
 DEBUG = os.environ.get("DEBUG", os.environ.get("debug", "")).strip()
-URL = os.environ.get("URL", "").strip()
+URL = os.environ.get("URL", "https://epay.ecnu.edu.cn/epaycas/electric/queryelectricbill").strip()
 HOME_ID = os.environ.get("ROOM_NO", "").strip()
 BUILDID = os.environ.get("ELCBUIS", "").strip()
 COOKIE = os.environ.get("COOKIE","").strip()

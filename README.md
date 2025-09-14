@@ -3,11 +3,43 @@
 华东师范大学电费统计：fork 自[华东理工大学电费统计](https://github.com/lxl66566/ecust-electricity-statistics), 适配了华师大的电费查询逻辑。通过 Github Actions 自动获取并记录每天的宿舍电量剩余，并通过 PushPlus/Telegram 自动推送/告急。
 
 ## 开始记录
-在从[校园卡综合服务平台](https://epay.ecnu.edu.cn/epaycas/)查询一次电费，使用网络监视器获取必要的cookie和paylod参数
-`ELCBUIS`: post请求表单数据的elcbuis项,宿舍楼的神秘代号
-`ROOM_NO`: post请求表单数据的roomNo项,形似`0721_??_114_514`
-`COOKIE`: 请求头里面那个
-`X_CSRF_TOKEN`: 请求头里面那个
+1. 在从[校园卡综合服务平台](https://epay.ecnu.edu.cn/epaycas/)查询一次电费，使用网络监视器获取必要的cookie和paylod参数
+
++ `ELCBUIS`: post请求表单数据的elcbuis项,宿舍楼的神秘代号
++ `ROOM_NO`: post请求表单数据的roomNo项,形似`0721_??_114_514`
++ `COOKIE`: 请求头里面那个
++ `X_CSRF_TOKEN`: 请求头里面那个
+
+2. 右上角 fork 仓库
+
+![fork](https://user-images.githubusercontent.com/88281489/205480982-a221a67c-c789-4298-9a45-34a35c820b71.png)
+
+3. 在 Code 界面下，点击 `data.js` ，将其删除。
+
+![删除 AbsoluteX 的数据](https://github.com/lxl66566/ecust-electricity-statistics/assets/88281489/bb12d4b9-4680-4499-9994-b0bd84d7fe1f)
+
+
+4. _Settings - Secrets and variables - Actions - New repository secret_
+
+填写第一步记录的secrets
+- `ELCBUIS`: post请求表单数据的elcbuis项,宿舍楼的神秘代号
+- `ROOM_NO`: post请求表单数据的roomNo项,形似`0721_??_114_514`
+- `COOKIE`: 请求头里面那个
+- `X_CSRF_TOKEN`: 请求头里面那个
+- 
+![找到 Secrets](https://user-images.githubusercontent.com/88281489/205481390-292a3fc3-fa69-4c2f-886c-b0bc573f5470.png)
+![填写](https://user-images.githubusercontent.com/88281489/205481486-3b5cafc9-f00d-4ca3-a0d8-eaedfffff7df.png)
+
+5. _Settings - Actions - General_ 界面，拉到最下，选择 _Workflow permissions_ 为 _Read and write permissions_
+
+<img alt="界面" src="https://user-images.githubusercontent.com/88281489/229278107-8a623cea-0ff9-435c-b729-e248c17ae827.png"  width="70%" height="70%"/>
+
+![选择权限](https://user-images.githubusercontent.com/88281489/229278162-e65383df-17a4-4b66-8981-5fc23d2413a7.png)
+
+6. _Actions - enable them_，然后在 AutoRecord 下点击 Enable workflow
+
+![image](https://user-images.githubusercontent.com/88281489/229278566-17ec1798-5e26-4c42-8f82-91386955d4fc.png)
+![image](https://user-images.githubusercontent.com/88281489/205481894-022e114f-5023-45d5-881d-d5fbc9d4a6ba.png)
 
 ## 查看数据
 
