@@ -3,7 +3,7 @@
 华东师范大学电费统计：fork 自[华东理工大学电费统计](https://github.com/lxl66566/ecust-electricity-statistics), 适配了华师大的电费查询逻辑。通过 Github Actions 自动获取并记录每天的宿舍电量剩余，并通过 PushPlus/Telegram 自动推送/告急。
 
 ## 开始记录
-1. 在从[校园卡综合服务平台](https://epay.ecnu.edu.cn/epaycas/)查询一次电费，使用网络监视器获取必要的cookie和paylod参数
+1. 在[校园卡综合服务平台](https://epay.ecnu.edu.cn/epaycas/)查询一次电费，使用网络监视器获取必要的cookie和paylod参数
 
 + `ELCBUIS`: post请求表单数据的elcbuis项,宿舍楼的神秘代号
 + `ROOM_NO`: post请求表单数据的roomNo项,形似`0721_??_114_514`
