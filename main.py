@@ -128,7 +128,7 @@ def generate_message() -> str | None:
     if config.get("detail", True) and GITHUB_TRIGGERING_ACTOR:
         logging.info("show more details")
         text.append(
-            f"[图表显示更多数据](https://{GITHUB_TRIGGERING_ACTOR}.github.io/ecust-electricity-statistics)"
+            f"[图表显示更多数据](https://{GITHUB_TRIGGERING_ACTOR}.github.io/ecnu-electricity-statistics)"
         )
 
     return "\n".join(text)
