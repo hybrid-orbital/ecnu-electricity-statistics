@@ -5,7 +5,7 @@ days_to_show = 10
 detail = true
 
 # 电量警告阈值（kW/h），电量小于此值时将推送警告信息，0 为不警告
-warning = 10
+warning = 20
 
 # 是否**仅**在电量小于阈值时推送警告信息
 push_warning_only = true
