@@ -1,0 +1,39 @@
+name: AutoRecord
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 00 * * *"
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Run
+        env:
+          URL: ${{ secrets.URL }}
+          PUSH_PLUS_TOKEN: ${{ secrets.PUSH_PLUS_TOKEN }}
+          GITHUB_TRIGGERING_ACTOR: ${{ github.triggering_actor }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_USER_IDS: ${{ secrets.TELEGRAM_USER_IDS }}
+        run: |
+          python main.py
+      - name: git config
+        run: |-
+          git config --global user.name "Github Actions"
+          git config --global user.email "actions@gmail.com"
+      - name: Push
+        run: |-
+          git diff
+          git add -A
+          git status
+          git commit -m "update by github actions"
+          git push

@@ -1,0 +1,320 @@
+{
+    "buils": [
+        {
+            "buiId": "new-80_MH",
+            "buiName": "闵行本科生1号楼"
+        },
+        {
+            "buiId": "new-81_MH",
+            "buiName": "闵行本科生2号楼"
+        },
+        {
+            "buiId": "new-82_MH",
+            "buiName": "闵行本科生3号楼"
+        },
+        {
+            "buiId": "new-83_MH",
+            "buiName": "闵行本科生4号楼"
+        },
+        {
+            "buiId": "new-84_MH",
+            "buiName": "闵行本科生5号楼"
+        },
+        {
+            "buiId": "new-85_MH",
+            "buiName": "闵行本科生6号楼"
+        },
+        {
+            "buiId": "new-86_MH",
+            "buiName": "闵行本科生7号楼"
+        },
+        {
+            "buiId": "new-87_MH",
+            "buiName": "闵行本科生8号楼"
+        },
+        {
+            "buiId": "new-88_MH",
+            "buiName": "闵行本科生9号楼"
+        },
+        {
+            "buiId": "new-89_MH",
+            "buiName": "闵行本科生10号楼"
+        },
+        {
+            "buiId": "new-90_MH",
+            "buiName": "闵行本科生11号楼"
+        },
+        {
+            "buiId": "new-91_MH",
+            "buiName": "闵行本科生12号楼"
+        },
+        {
+            "buiId": "new-92_MH",
+            "buiName": "闵行本科生16号楼"
+        },
+        {
+            "buiId": "new-93_MH",
+            "buiName": "闵行本科生19号楼"
+        },
+        {
+            "buiId": "new-94_MH",
+            "buiName": "闵行本科生20号楼"
+        },
+        {
+            "buiId": "new-95_MH",
+            "buiName": "闵行本科生21号楼"
+        },
+        {
+            "buiId": "new-96_MH",
+            "buiName": "闵行本科生22号楼"
+        },
+        {
+            "buiId": "new-97_MH",
+            "buiName": "闵行本科生13号楼"
+        },
+        {
+            "buiId": "new-98_MH",
+            "buiName": "闵行本科生14号楼"
+        },
+        {
+            "buiId": "new-99_MH",
+            "buiName": "闵行本科生15号楼"
+        },
+        {
+            "buiId": "new-100_HM",
+            "buiName": "闵行研究生1号楼"
+        },
+        {
+            "buiId": "new-101_HM",
+            "buiName": "闵行研究生2号楼"
+        },
+        {
+            "buiId": "new-102_HM",
+            "buiName": "闵行研究生3号楼"
+        },
+        {
+            "buiId": "new-103_HM",
+            "buiName": "闵行研究生4号楼"
+        },
+        {
+            "buiId": "new-104_HM",
+            "buiName": "闵行研究生5号楼"
+        },
+        {
+            "buiId": "new-105_HM",
+            "buiName": "闵行研究生6号楼"
+        },
+        {
+            "buiId": "new-117_HM",
+            "buiName": "闵行研究生7号楼南"
+        },
+        {
+            "buiId": "new-118_HM",
+            "buiName": "闵行研究生7号楼北"
+        },
+        {
+            "buiId": "new-112_HM",
+            "buiName": "闵行研究生8号楼南"
+        },
+        {
+            "buiId": "new-113_HM",
+            "buiName": "闵行研究生8号楼北"
+        },
+        {
+            "buiId": "new-114_HM",
+            "buiName": "闵行研究生9号楼南"
+        },
+        {
+            "buiId": "new-115_HM",
+            "buiName": "闵行研究生9号楼北"
+        },
+        {
+            "buiId": "new-106_HM",
+            "buiName": "闵行研究生11号楼"
+        },
+        {
+            "buiId": "new-107_HM",
+            "buiName": "闵行研究生12号楼"
+        },
+        {
+            "buiId": "new-108_HM",
+            "buiName": "闵行研究生13号楼"
+        },
+        {
+            "buiId": "new-116_HM",
+            "buiName": "闵行研究生14号楼"
+        },
+        {
+            "buiId": "new-109_HM",
+            "buiName": "闵行研究生15号楼"
+        },
+        {
+            "buiId": "new-110_HM",
+            "buiName": "闵行研究生16号楼"
+        },
+        {
+            "buiId": "new-111_HM",
+            "buiName": "闵行研究生17号楼"
+        },
+        {
+            "buiId": "new-132_HM",
+            "buiName": "闵行青教公寓1号楼"
+        },
+        {
+            "buiId": "new-131_HM",
+            "buiName": "闵行青教公寓2号楼"
+        },
+        {
+            "buiId": "new-130_HM",
+            "buiName": "闵行青教公寓3号楼"
+        },
+        {
+            "buiId": "new-129_HM",
+            "buiName": "闵行青教公寓4号楼"
+        },
+        {
+            "buiId": "new-128_HM",
+            "buiName": "闵行青教公寓5号楼"
+        },
+        {
+            "buiId": "new-127_HM",
+            "buiName": "闵行青教公寓6号楼"
+        },
+        {
+            "buiId": "new-126_HM",
+            "buiName": "闵行青教公寓7号楼"
+        },
+        {
+            "buiId": "new-125_HM",
+            "buiName": "闵行青教公寓8号楼"
+        },
+        {
+            "buiId": "new-124_HM",
+            "buiName": "闵行青教公寓9号楼"
+        },
+        {
+            "buiId": "new-123_HM",
+            "buiName": "闵行青教公寓10号楼"
+        },
+        {
+            "buiId": "new-122_HM",
+            "buiName": "闵行青教公寓11号楼"
+        },
+        {
+            "buiId": "new-121_HM",
+            "buiName": "闵行青教公寓12号楼"
+        },
+        {
+            "buiId": "new-120_HM",
+            "buiName": "闵行青教公寓13号楼"
+        },
+        {
+            "buiId": "new-119_HM",
+            "buiName": "闵行青教公寓15号楼"
+        },
+        {
+            "buiId": "new-1_BY",
+            "buiName": "同普路1号楼"
+        },
+        {
+            "buiId": "new-2_BY",
+            "buiName": "同普路2号楼"
+        },
+        {
+            "buiId": "new-3_BY",
+            "buiName": "同普路6号楼"
+        },
+        {
+            "buiId": "new-4_BY",
+            "buiName": "同普路7号楼"
+        },
+        {
+            "buiId": "new-5_BY",
+            "buiName": "同普路8号楼"
+        },
+        {
+            "buiId": "new-6_BY",
+            "buiName": "同普路9号楼"
+        },
+        {
+            "buiId": "new-7_BY",
+            "buiName": "同普路10号楼"
+        },
+        {
+            "buiId": "new-8_BY",
+            "buiName": "同普路12号楼"
+        },
+        {
+            "buiId": "new-9_BY",
+            "buiName": "白玉路学生公寓"
+        },
+        {
+            "buiId": "new-134_BY",
+            "buiName": "同普路4号楼"
+        },
+        {
+            "buiId": "new-10_ZB",
+            "buiName": "中北3舍"
+        },
+        {
+            "buiId": "new-11_ZB",
+            "buiName": "中北2舍"
+        },
+        {
+            "buiId": "new-12_ZB",
+            "buiName": "中北5舍"
+        },
+        {
+            "buiId": "new-13_ZB",
+            "buiName": "中北翠苑琴房"
+        },
+        {
+            "buiId": "new-14_ZB",
+            "buiName": "中北7舍"
+        },
+        {
+            "buiId": "new-15_ZB",
+            "buiName": "中北8舍"
+        },
+        {
+            "buiId": "new-16_ZB",
+            "buiName": "中北9舍"
+        },
+        {
+            "buiId": "new-17_ZB",
+            "buiName": "中北10舍"
+        },
+        {
+            "buiId": "new-18_ZB",
+            "buiName": "中北11舍"
+        },
+        {
+            "buiId": "new-19_ZB",
+            "buiName": "中北12舍"
+        },
+        {
+            "buiId": "new-20_ZB",
+            "buiName": "中北15舍"
+        },
+        {
+            "buiId": "new-21_ZB",
+            "buiName": "中北16舍"
+        },
+        {
+            "buiId": "new-22_ZB",
+            "buiName": "中北17舍"
+        },
+        {
+            "buiId": "new-23_ZB",
+            "buiName": "中北18舍"
+        },
+        {
+            "buiId": "new-24_ZB",
+            "buiName": "中北21舍"
+        },
+        {
+            "buiId": "new-135_ZB",
+            "buiName": "中北华夏公寓"
+        }
+    ]
+}

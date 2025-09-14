@@ -1,0 +1,9 @@
+[project]
+authors = [{ name = "lxl66566", email = "lxl66566@gmail.com" },{name = "hybrid_orbital", email = "hybrid_orbital@outlook.com"}]
+name = "ecnu-electricity-statistics"
+version = "1.2.0"
+description = "华东师范大学电费统计"
+license = "MIT"
+readme = "README.md"
+dependencies = ["requests>=2.32.3", "telegramify-markdown>=0.4.0"]
+requires-python = ">=3.12"
