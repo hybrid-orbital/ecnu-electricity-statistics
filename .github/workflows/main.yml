@@ -20,6 +20,10 @@ jobs:
       - name: Run
         env:
           URL: ${{ secrets.URL }}
+          ELCBUIS: ${{ secrets.ELCBUIS}}
+          ROOM_NO: ${{ secrets.ROOM_NO}}
+          COOKIE: ${{ secrets.COOKIE}}
+          X_CSRF_TOKEN: ${{ secrets.X_CSRF_TOKEN}}
           PUSH_PLUS_TOKEN: ${{ secrets.PUSH_PLUS_TOKEN }}
           GITHUB_TRIGGERING_ACTOR: ${{ github.triggering_actor }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
