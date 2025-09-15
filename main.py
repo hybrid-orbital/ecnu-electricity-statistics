@@ -51,7 +51,8 @@ def once(func: Callable[..., Any]) -> Callable[..., Any]:
 
 @once
 def get_date() -> str:
-    return datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    tz = datetime.timezone(datetime.timedelta(hours=8))
+    return datetime.datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S")
 
 #好像不需要map（
 def room_id_map(id: str)->str:
