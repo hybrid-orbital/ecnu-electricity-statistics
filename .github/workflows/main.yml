@@ -2,7 +2,7 @@ name: AutoRecord
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 00 * * *"
+    - cron: "30 */8 * * *"
 permissions:
   contents: write
 jobs:

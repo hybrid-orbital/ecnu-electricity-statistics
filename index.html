@@ -12,16 +12,20 @@
         data,
         xField: 'time',
         yField: 'kWh',
+        xAxis: {
+          type: 'time',
+        },
         useDeferredLabel: true,
         legend: {
           position: 'top',
         },
-        connectNulls : false,
+        connectNulls: false,
         slider: {
           start: 0,
           end: 1,
         },
       });
+
 
       linePlot.render();
     </script>

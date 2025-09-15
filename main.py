@@ -51,7 +51,7 @@ def once(func: Callable[..., Any]) -> Callable[..., Any]:
 
 @once
 def get_date() -> str:
-    return datetime.datetime.now().strftime("%Y-%m-%d")
+    return datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 #好像不需要map（
 def room_id_map(id: str)->str:
@@ -118,7 +118,7 @@ def generate_message() -> str | None:
             f"个人信息：{buildid} {roomid} 室",
             f"统计时间：{get_date()}",
             "",
-            f"### 最近 {len(last_few_items)} 天数据",
+            f"### 最近 {len(last_few_items)} 次数据",
             "",
             f"{tablestr}",
             "",
